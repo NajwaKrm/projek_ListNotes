@@ -1,0 +1,109 @@
+/* Set margin and padding to 0 for the body */
+body {
+    margin: 0;
+    padding: 0;
+    /* Set a light grey background color */
+    background-color: #f2f2f2a4;
+}
+
+/* Gunakan media queries untuk penyesuaian responsif */
+@media (max-width: 600px) {
+    .isi {
+        max-width: 100%;
+    }
+}
+/* Container for the main content */
+.pembungkus {
+    /* Set border radius to create rounded corners */
+    border-radius: 20px;
+    /* Set the background color to a dark purple */
+    background-color: #D2FBA4;
+    /* Use flexbox to align content vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Set the width and height of the container */
+    width: 23%;
+    height: 280px;
+    /* Add margin to position the container */
+    margin-left: 500px;
+    margin-top: 170px;
+}
+
+/* Style for paragraphs inside the container */
+.isi p {
+    /* Align text to the center */
+    text-align: center;
+    /* Set font size and family */
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* Remove default margin */
+    margin: 0;
+}
+
+/* Style for input fields inside the container */
+.isi input {
+    /* Set background color and border */
+    background-color: #f2f2f2;
+    border: 1px solid;
+    /* Use flexbox to align content horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Set margin and width for the input field */
+    margin: 20px;
+    width: 200px;
+    /* Add padding to the input field */
+    padding: 8px;
+    /* Set border radius for rounded corners */
+    border-radius: 8px;
+}
+
+/* Style for the registration link *//* CSS untuk tombol Masuk */
+.login-btn {
+     /* Add padding and set a light grey background color */
+     padding: 8px;
+     /* Set text color and background color */
+     color: black;
+     background-color: #45a049;
+     /* Use flexbox to align content horizontally and vertically */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* Set width for the link */
+     width: 85%;
+     /* Add margin to position the link */
+     margin-left: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #ccc;
+}
+
+/* Tambahkan margin pada CSS untuk memberikan jarak antara button dan span */
+.register-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+}
+
+.register-link a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: none;
+}
+
+/* Tambahkan margin-bottom pada tombol untuk memberikan jarak ke bawah */
+button {
+    margin-bottom: 20px;
+}

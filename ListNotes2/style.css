@@ -1,0 +1,127 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.toggle-button {
+    position: relative;
+    display: inline-block;
+}
+
+.toggle-button-icon {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 40px; /* Sesuaikan ukuran gambar logo */
+    height: 40px; /* Sesuaikan ukuran gambar logo */
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.action-button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-toggle {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0; /* Mengatur posisi dropdown ke kanan */
+    top: 100%; /* Mengatur posisi dropdown di bawah tombol */
+}
+
+.dropdown.active .dropdown-menu {
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block; /* Menampilkan dropdown saat tombol dihover */
+}
+
+.dropdown-toggle i {
+    margin-right: 5px;
+}
+
+.dropdown-menu li {
+    padding: 10px 20px; /* Sesuaikan dengan preferensi Anda */
+    list-style: none; /* Menghapus bullet points pada list */
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: #333; /* Ganti dengan warna teks yang Anda inginkan */
+    display: block;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f2f2f2; /* Warna latar saat hover */
+}
+
+
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.rounded-button {
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-color: #D2FBA4;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 24px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    
+}
+
+.rounded-button:hover {
+    background-color: #ccc;
+}
+ 
